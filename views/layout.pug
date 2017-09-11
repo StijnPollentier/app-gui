@@ -1,0 +1,31 @@
+doctype html
+html
+    head
+        title= "daltix"
+        link(rel='stylesheet', href='/css/bootstrap.min.css')
+        link(rel='stylesheet', href='/css/style.css')
+
+    body
+        header
+            nav.navbar.clearfix#menu
+                a.navbar-brand.float-left Daltix Dashboard
+                div.float-left
+                    ul.navbar-nav.mr-auto.clearfix
+                        li.nav-item.float-left
+                            a.nav-link(href="http://localhost:4200/remarkable") Remarkable
+                                span.sr-only
+                        li.nav-item.float-left
+                            a.nav-link(href="http://localhost:4200/metrics") Metrics
+                                span.sr-only
+
+        #wrapper.clearfix
+            .col-md-2.float-left#leftfilter
+                p left filter column
+
+            .col-md-10.float-left#rightcontent
+                block content
+
+
+
+
+

@@ -1,0 +1,18 @@
+extends layout
+
+block content
+    h1.text-primary#tableTitle= "Remarkable"
+
+    -var ob = JSON.parse(value)
+    each val in ob
+        li
+        .col-md-1.float-left #{val.shop}
+        .col-md-1.float-left #{val.location}
+        .col-md-1.float-left #{val.product_id}
+        .col-md-2.float-left #{val.downloaded_on}
+        .col-md-1.float-left #{val.run_id}
+        .col-md-1.float-left #{val.level}
+        .col-md-5.float-left #{val.message}
+
+
+

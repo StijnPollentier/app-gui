@@ -1,0 +1,27 @@
+{
+  "name": "app-gui",
+  "version": "1.0.0",
+  "description": "Daltix UI",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "UI"
+  ],
+  "author": "Daltix",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "dust": "^0.3.0",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "jade": "^1.11.0",
+    "pg": "^7.3.0",
+    "pug": "^2.0.0-rc.3"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.0"
+  }
+}
