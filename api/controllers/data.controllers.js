@@ -29,7 +29,7 @@ module.exports.getTableRemarkable = function(req,res){
             res
                 .status(200)
                 //.render('remarkable', {value: JSON.stringify(queryResult)});
-                .render('viewtest1.html');
+                .render('home.html');
 
             console.log("done");
         });
